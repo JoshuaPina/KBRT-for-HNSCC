@@ -9,4 +9,4 @@ plotly
 streamlit
 jupyter
 xgboost
-opencv
+opencv-python

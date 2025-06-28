@@ -59,6 +59,24 @@ Experienced Program Manager in government contracting and former U.S. Army Comba
 
 Consideration for using Azure, and for future expansion, converting Streamlit to a full-stack application.
 
+##  Development Environment
+
+This project uses [GitHub Codespaces](https://github.com/features/codespaces) to ensure a consistent, reproducible development setup.
+
+--- 
+
+### Quick Start
+
+1. **Open in Codespaces**  
+   Click the green **Code** button on this repository, then choose **Open with Codespaces** → **New codespace**.
+
+2. **Automatic setup**  
+   The dev container will automatically install Python and all required packages listed in `requirements.txt`.
+
+3. **Activate the environment**  
+   When your Codespace starts, you’re ready to run scripts and notebooks immediately.
+
+---
 
 ## Project Website
 
