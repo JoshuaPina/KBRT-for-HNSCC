@@ -28,7 +28,7 @@ Proficient in Python (PyTorch), TypeScript, React, Express, and Node.js.
 
 ---
 
-### Joshua Pina (Josh)
+### Joshua Pina
 
 Data Science - Senior, plans to pursue JD + MS in Analytics.  
 Background in Python, applied probability & statistics, data analytics, big data programming, and ML. 
