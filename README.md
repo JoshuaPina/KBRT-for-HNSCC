@@ -15,6 +15,7 @@ We are an interdisciplinary student research team bringing together expertise in
 PhD candidate in Mathematics w/ Concentration in Bioinformatics.  
 Experienced in mathematical modeling of cancer immunotherapy, radiotherapy, and chemotherapy using MATLAB and Python. 
 Currently expanding into machine learning to enhance research methods and integrate data-driven insights.
+[Github](https://www.github.com/srauf2)
 
 ---
 
@@ -23,6 +24,7 @@ Currently expanding into machine learning to enhance research methods and integr
 Computer Science - Senior, final semester  
 Skilled in training ML models and SWE applications during internships and industry projects. 
 Proficient in Python (PyTorch), TypeScript, React, Express, and Node.js.
+[Github](https://www.github.com/aimolik)
 
 ---
 
@@ -31,6 +33,7 @@ Proficient in Python (PyTorch), TypeScript, React, Express, and Node.js.
 Data Science - Senior, plans to pursue JD + MS in Analytics.  
 Background in Python, applied probability & statistics, data analytics, big data programming, and ML. 
 Experienced Program Manager in government contracting and former U.S. Army Combat Medic.
+[Github](https://www.github.com/joshuadpina)
 
 ---
 
