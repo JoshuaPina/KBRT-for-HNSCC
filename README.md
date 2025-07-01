@@ -80,6 +80,6 @@ This project uses [GitHub Codespaces](https://github.com/features/codespaces) to
 
 ## Project Website
 
-👉 [View website](www.google.com)
+👉 [View website](https://joshuapina.github.io/KBRT-for-HNSCC/)
 
 ---
