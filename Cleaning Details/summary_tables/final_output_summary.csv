@@ -1,0 +1,14 @@
+Category,Location,Status
+Data Files,,
+Matched Clinical CSV,/kaggle/working/Updated_Data_128x128_small/matched_clinical_data.csv,Complete
+Resized Images Folder,/kaggle/working/Updated_Data_128x128_small/matched_folders_128x128,Complete
+Analysis Tables,,
+Data Quality Summary,/kaggle/working/Updated_Data_128x128_small/summary_tables/data_quality_summary.csv,Complete
+Patient Processing Summary,/kaggle/working/Updated_Data_128x128_small/summary_tables/patient_processing_summary.csv,Complete
+Execution Summary,/kaggle/working/Updated_Data_128x128_small/execution_summary.csv,Complete
+Visualizations,,
+Performance Dashboard,/kaggle/working/Updated_Data_128x128_small/visualizations/processing_performance_dashboard.png,Complete
+Detailed Reports,,
+Processing Log,/kaggle/working/Updated_Data_128x128_small/processing_logs/detailed_processing_report.csv,Complete
+Detailed Error Log,/kaggle/working/Updated_Data_128x128_small/error_logs/image_processing_errors.log,Complete
+All Output Files,/kaggle/working/Updated_Data_128x128_small,Complete

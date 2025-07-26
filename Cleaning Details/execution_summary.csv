@@ -1,0 +1,17 @@
+Configuration Item,Value
+Configuration,small_128x128
+Resize_Dimensions,128x128
+JPEG_Quality,95
+Batch_Size,50
+Input_Extensions,*.png; *.jpg; *.jpeg; *.dcm
+Convert_Grayscale_to_RGB,True
+Total_Patients_Matched,335
+Total_Images_Found,91135
+Total_Images_Processed,91135
+Total_Images_Skipped,0
+Success_Rate_Percent,100.0
+Processing_Time_Seconds,1328.1
+Total_Execution_Time,22m 8.6s
+Output_Directory,/kaggle/working/Updated_Data_128x128_small
+Processed_Images_Directory,/kaggle/working/Updated_Data_128x128_small/matched_folders_128x128
+Processing_Date,2025-07-19 23:00:54

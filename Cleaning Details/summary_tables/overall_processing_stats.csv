@@ -1,0 +1,9 @@
+Metric,Value
+Patients Processed,335
+Total Images Found,91135
+Successfully Processed,91135
+Images Skipped,0
+Overall Success Rate Percent,100.0
+Total Processing Time Seconds,1328.1
+Average Time per Patient Seconds,3.96
+Images per Second,68.6
