@@ -2,6 +2,10 @@
 
 **Knowledge-Based Radiotherapy for Head and Neck Squamous Cell Carcinoma (HNSCC)**
 
+## Abstract 
+
+Head and neck squamous cell carcinoma (HNSCC), accounting for 90% of head and neck cancers (HNC) and ranking as the 6th most common globally, exhibits an inherent resistance to conventional radiotherapy. The development of advanced strategies, particularly leveraging Machine Learning (ML), is crucial for optimizing HNSCC treatment. This paper presents the foundational work for an ML-driven approach to predict optimal radiotherapy dosages for HNSCC patients. Our initial investigation focused on evaluating and identifying the most effective ML models for classifying HNSCC patient data, a critical precursor to accurate dosage prediction. We systematically assessed several supervised learning algorithms, to include, binary and multi-class Log Regression, SVM, CNN, ResNet, and U-Net, using a comprehensive dataset. The results of this comparative analysis pinpoint different forms of CNN as the most promising for HNSCC data classification, demonstrating higher accuracy throughout. This foundational work establishes the classification framework necessary for subsequent stages of personalized radiotherapy optimization.
+
 ## Overview
 
 This project explores the application of knowledge-based radiotherapy (KBRT) models to improve treatment planning for head and neck cancer (specifically HNSCC). By combining mathematical modeling and machine learning, we aim to optimize dose distribution and reduce treatment-related toxicity, ultimately improving patient outcomes.
