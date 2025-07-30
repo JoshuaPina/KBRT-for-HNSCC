@@ -28,8 +28,14 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator #For data au
 
 #Constants for the model
 IMAGE_SIZE = (128, 128)
-DATASET_PATH = Path("../Data/data_images")
-CSV_PATH = Path("../Data/data_sheet.csv")
+
+BASE_DIR = Path(__file__).resolve().parent.parent 
+CSV_PATH = BASE_DIR / "Data" / "data_sheet.csv"
+DATASET_PATH = BASE_DIR / "Data" / "data_images"
+
+print("Resolved CSV path:", CSV_PATH)
+print("Resolved image folder path:", DATASET_PATH)
+
 
 df = pd.read_csv(CSV_PATH)
 print("CSV shape:", df.shape)
@@ -63,7 +69,7 @@ def process_large_folders(df, dataset_path, batch_size=1000, memory_threshold_gb
     start = time.time()
     total_batches = (len(df) - 1) // batch_size + 1
 
-    print(f"🚀 Starting Processing")
+    print(f"Starting Processing")
     print(f"Total rows: {len(df)} | Batch size: {batch_size} | Total batches: {total_batches}")
     print(f"Initial memory usage: {get_memory_usage()}")
     print("-" * 60)
@@ -98,7 +104,7 @@ def process_large_folders(df, dataset_path, batch_size=1000, memory_threshold_gb
                     gc.collect()
             else:
                 if idx < 5:
-                    print(f"  ⚠️ Missing folder: {folder_path}")
+                    print(f"  Missing folder: {folder_path}")
 
         matched_data.extend(batch_data)
         del batch_data
@@ -114,7 +120,7 @@ def process_large_folders(df, dataset_path, batch_size=1000, memory_threshold_gb
 
     return matched_data
 # Call the function to start the processing
-matched_data = process_large_folders(df, DATASET_PATH, batch_size=50)
+matched_data = process_large_folders(df, DATASET_PATH, batch_size=10)
 
 
 # Filter only L/R labels and map to binary
